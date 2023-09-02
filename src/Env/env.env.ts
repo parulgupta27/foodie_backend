@@ -1,5 +1,5 @@
-import Development from "./dev_env";
-import Production from "./prod_env";
+import Development from "./dev.env";
+import Production from "./prod.env";
 
 export interface Environment{
 db_url:string,
